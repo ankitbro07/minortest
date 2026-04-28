@@ -1,8 +1,12 @@
-
+#Read data from file
 with open("students.json","r") as f:
     print(f.read())
-with open("students.json","w") as f:
+
+#Write data to file
+with open("students.json","w") as f: 
     f.write("this are the recodes of the students")
+
+#Update data in file
 with open("students.json","r") as f:
       print({
  "id": 1,
@@ -11,6 +15,8 @@ with open("students.json","r") as f:
  "marks": 85
 })
 
+
+#FastAPI Endpoints()##########3
 
 from fastapi import FastAPI
 import os
