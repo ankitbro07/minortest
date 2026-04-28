@@ -1,1 +1,8 @@
 this are the recodes of the students
+
+{
+ "id": 1,
+ "name": "Rahul",
+ "course": "Python",
+ "marks": 85
+}
